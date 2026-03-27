@@ -1,0 +1,6 @@
+@echo off
+echo Building Server...
+gcc src/server.c -o server.exe -lws2_32
+echo Building Client...
+gcc src/client.c -o client.exe -lws2_32
+echo Build completed successfully.
